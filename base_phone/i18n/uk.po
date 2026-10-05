@@ -230,3 +230,251 @@ msgstr "Ключ сервера SFU"
 #: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__web_app_name
 msgid "Web App Name"
 msgstr "Назва вебзастосунку"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_mail_plugin
+msgid "Allow integration with the mail plugins"
+msgstr "Дозволити інтеграцію з поштовими плагінами"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_google_calendar
+msgid "Allow the users to synchronize their calendar  with Google Calendar"
+msgstr "Дозволити користувачам синхронізувати календар із Google Calendar"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_microsoft_calendar
+msgid "Allow the users to synchronize their calendar with Outlook Calendar"
+msgstr "Дозволити користувачам синхронізувати календар із Outlook Calendar"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_base_import
+msgid "Allow users to import data from CSV/XLS/XLSX/ODS files"
+msgstr "Дозволити користувачам імпортувати дані з CSV/XLS/XLSX/ODS"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__company_country_code
+msgid "Company Country Code"
+msgstr "Код країни компанії"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__company_informations
+msgid "Company Informations"
+msgstr "Інформація про компанію"
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.number_not_found_form
+msgid "Create or Update a Partner"
+msgstr "Створити або оновити контрагента"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__report_footer
+msgid "Custom Report Footer"
+msgstr "Користувацький нижній колонтитул звіту"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__user_default_rights
+msgid "Default Access Rights"
+msgstr "Права доступу за замовчуванням"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__email_secondary_color
+msgid "Email Button Color"
+msgstr "Колір кнопки електронного листа"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__email_primary_color
+msgid "Email Header Color"
+msgstr "Колір заголовка електронного листа"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__auth_signup_reset_password
+msgid "Enable password reset from Login page"
+msgstr "Увімкнути скидання пароля зі сторінки входу"
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__report_footer
+msgid "Footer text displayed at the bottom of all reports."
+msgstr "Нижній колонтитул відображається в кінці кожної сторінки звітів."
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_product_images
+msgid "Get product pictures using barcode"
+msgstr "Отримувати зображення товару за штрихкодом"
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__number_of_digits_to_match_from_end
+#: model:ir.model.fields,help:base_phone.field_res_company__number_of_digits_to_match_from_end
+#: model:ir.model.fields,help:base_phone.field_res_config_settings__number_of_digits_to_match_from_end
+msgid ""
+"In several situations, Odoo will have to find a Partner/Lead/Employee/... "
+"from a phone number presented by the calling party. As the phone numbers "
+"presented by your phone operator may not always be displayed in a standard "
+"format, the best method to find the related Partner/Lead/Employee/... in "
+"Odoo is to try to match the end of the phone number in Odoo with the N last "
+"digits of the phone number presented by the calling party. N is the value "
+"you should enter in this field."
+msgstr ""
+"У різних ситуаціях Odoo потрібно буде знайти контрагента/лід/працівника/... "
+"за номером телефону, переданим стороною, що телефонує. Оскільки номери, які "
+"передає телефонний оператор, не завжди мають стандартний формат, найкращий "
+"спосіб знайти відповідного контрагента/лід/працівника/... в Odoo — "
+"спробувати зіставити кінець номера телефону в Odoo з останніми N цифрами "
+"номера, переданого стороною, що телефонує. N — значення, яке потрібно ввести"
+" в цьому полі."
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__tenor_content_filter
+msgid "Klipy content filter"
+msgstr "Фільтр вмісту Klipy"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_auth_ldap
+msgid "LDAP Authentication"
+msgstr "Автентифікація LDAP"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_account_inter_company_rules
+msgid "Manage Inter Company"
+msgstr "Керувати між компаніями"
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.number_not_found_form
+msgid "Number Not Found"
+msgstr "Номер не знайдено"
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.number_not_found_form
+msgid "Number converted to international format:"
+msgstr "Номер, перетворений у міжнародний формат:"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__active_user_count
+msgid "Number of Active Users"
+msgstr "Кількість активних користувачів"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__company_count
+msgid "Number of Companies"
+msgstr "Кількість компаній"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_res_company__number_of_digits_to_match_from_end
+msgid "Number of Digits To Match From End"
+msgstr "Кількість цифр для зіставлення з кінця"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__language_count
+msgid "Number of Languages"
+msgstr "Кількість мов"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_partner_autocomplete
+msgid "Partner Autocomplete"
+msgstr "Автозаповнення партнера"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__phonenumbers_not_reformatted
+msgid "Phone numbers that couldn't be reformatted"
+msgstr "Номери телефонів, які не вдалося переформатувати"
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.reformat_all_phonenumbers_form
+msgid "Phone numbers that couldn't be reformatted:"
+msgstr "Номери телефонів, які не вдалося переформатувати:"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__snailmail_duplex
+msgid "Print Both sides"
+msgstr "Друкувати з обох боків"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__profiling_enabled_until
+msgid "Profiling enabled until"
+msgstr "Профілювання увімкнено до"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__restrict_template_rendering
+msgid "Restrict Template Rendering"
+msgstr "Обмежити рендеринг шаблонів"
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.res_config_settings_view_form
+msgid ""
+"Set how many digits must be identical from the end of the phone number to "
+"declare it as a match with a partner, a lead, an employee, a candidate, etc."
+msgstr ""
+"Задайте, скільки цифр із кінця телефонного номера мають збігатися, щоб "
+"вважати його відповідним партнеру, ліду, працівнику, кандидату тощо."
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__snailmail_cover_readonly
+msgid "Snailmail Cover Readonly"
+msgstr "Обкладинка Snailmail лише для читання"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_google_gmail
+msgid "Support Gmail Authentication"
+msgstr "Підтримувати автентифікацію Gmail"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_microsoft_outlook
+msgid "Support Outlook Authentication"
+msgstr "Підтримувати автентифікацію Outlook"
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.view_users_form
+msgid "Telephony Preferences"
+msgstr "Налаштування телефонії"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__auth_signup_template_user_id
+msgid "Template user for new users created through signup"
+msgstr "Шаблон користувача для нових користувачів, створених через реєстрацію"
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__company_country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"Код країни ISO у двох символах.\n"
+"Ви можете використовувати це поле для швидкого пошуку."
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.reformat_all_phonenumbers_form
+msgid ""
+"This wizard reformats the phone and mobile numbers of all partners in "
+"standard international format e.g. +33 1 41 98 12 42"
+msgstr ""
+"Цей майстер переформатує телефонні й мобільні номери всіх партнерів у "
+"стандартний міжнародний формат, наприклад +33 1 41 98 12 42"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__twilio_account_sid
+msgid "Twilio Account SID"
+msgstr "SID облікового запису Twilio"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_web_unsplash
+msgid "Unsplash Image Library"
+msgstr "Бібліотека зображень Unsplash"
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.number_not_found_form
+msgid "Update Existing Partner"
+msgstr "Оновити наявного контрагента"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__external_email_server_default
+msgid "Use Custom Email Servers"
+msgstr "Використовувати власні поштові сервери"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__use_twilio_rtc_servers
+msgid "Use Twilio ICE servers"
+msgstr "Використовувати ICE-сервери Twilio"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_auth_oauth
+msgid "Use external authentication providers (OAuth)"
+msgstr "Використовувати зовнішніх постачальників автентифікації (OAuth)"
