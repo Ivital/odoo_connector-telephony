@@ -478,3 +478,107 @@ msgstr "Використовувати ICE-сервери Twilio"
 #: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_auth_oauth
 msgid "Use external authentication providers (OAuth)"
 msgstr "Використовувати зовнішніх постачальників автентифікації (OAuth)"
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__google_translate_api_key
+msgid ""
+"A valid Google API key is required to enable message translation. "
+"https://cloud.google.com/translate/docs/setup"
+msgstr ""
+"Для перекладу повідомлень потрібен дійсний ключ Google API. "
+"https://cloud.google.com/translate/docs/setup"
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__tenor_api_key
+msgid ""
+"Add a Klipy GIF API key to enable GIFs support. https://docs.klipy.com/getting-started\n"
+"If you were using a Tenor GIF API key (service shutdown on June 30, 2026), please replace it here with a Klipy GIF API key"
+msgstr ""
+"Додайте API-ключ Klipy GIF, щоб увімкнути підтримку GIF. https://docs.klipy.com/getting-started\n"
+"Якщо ви використовували API-ключ Tenor GIF (сервіс припинено 30 червня 2026 року), замініть його тут на API-ключ Klipy GIF."
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__group_multi_currency
+msgid "Allows to work in a multi currency environment"
+msgstr "Дозволяє працювати в мультивалютному середовищі"
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__sfu_server_key
+msgid "Base64 encoded key"
+msgstr "Ключ у кодуванні Base64"
+
+#. module: base_phone
+#: model:ir.model,name:base_phone.model_phone_common
+msgid "Common methods for phone features"
+msgstr "Спільні методи для телефонних функцій"
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_number_not_found__e164_number
+msgid "E.164 equivalent of the calling number."
+msgstr "Еквівалент номера виклику у форматі E.164."
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__tenor_gif_limit
+msgid "Fetch up to the specified number of GIF."
+msgstr "Отримати до вказаної кількості GIF."
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__alias_domain_id
+msgid ""
+"If you have setup a catch-all email domain redirected to the Odoo server, "
+"enter the domain name here."
+msgstr ""
+"Якщо налаштовано catch-all домен пошти з перенаправленням на сервер Odoo, "
+"введіть тут ім’я домену."
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__use_twilio_rtc_servers
+msgid "If you want to use twilio as TURN/STUN server provider"
+msgstr ""
+"Якщо ви хочете використовувати Twilio як постачальника TURN/STUN-сервера"
+
+#. module: base_phone
+#: model:ir.model,name:base_phone.model_number_not_found
+msgid "Number not found"
+msgstr "Номер не знайдено"
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_number_not_found__to_update_partner_id
+msgid "Partner on which the phone number will be written"
+msgstr "Партнер, у якого буде записано номер телефону"
+
+#. module: base_phone
+#: model:res.groups,name:base_phone.group_callerid
+msgid "Phone CallerID"
+msgstr "CallerID телефону"
+
+#. module: base_phone
+#: model:ir.model,name:base_phone.model_phone_validation_mixin
+msgid "Phone Validation Mixin"
+msgstr "Міксин перевірки телефону"
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_number_not_found__calling_number
+msgid ""
+"Phone number of calling party that has been obtained from the telephony "
+"server, in the format used by the telephony server (not E.164)."
+msgstr ""
+"Номер телефону сторони, що телефонує, отриманий із телефонного сервера у "
+"форматі, який використовує цей сервер (не E.164)."
+
+#. module: base_phone
+#: model:ir.model.constraint,message:base_phone.constraint_res_company_number_of_digits_to_match_from_end_positive
+msgid ""
+"The value of the field 'Number of Digits To Match From End' must be "
+"positive."
+msgstr ""
+"Значення поля «Кількість цифр для зіставлення з кінця» має бути додатним."
+
+#. module: base_phone
+#: model:ir.model.fields,help:base_phone.field_reformat_all_phonenumbers__restrict_template_rendering
+msgid ""
+"Users will still be able to render templates.\n"
+"However only Mail Template Editors will be able to create new dynamic templates or modify existing ones."
+msgstr ""
+"Користувачі й надалі зможуть відтворювати шаблони.\n"
+"Однак лише редактори поштових шаблонів зможуть створювати нові динамічні шаблони або змінювати наявні."

@@ -263,3 +263,20 @@ msgstr "Пароль VoIP"
 #: model:ir.model.fields,field_description:voip_oca.field_res_users__voip_username
 msgid "Voip Username"
 msgstr "Ім’я користувача VoIP"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/call/call.xml:0
+#: code:addons/voip_oca/static/src/components/partner/partner.xml:0
+msgid "Send email"
+msgstr "Надіслати електронний лист"
+
+#. module: voip_oca
+#: model:ir.model.fields,help:voip_oca.field_voip_call__activity_name
+msgid "The name of the activity related to this phone call, if any."
+msgstr "Назва активності, пов’язаної з цим телефонним дзвінком, якщо є."
+
+#. module: voip_oca
+#: model:ir.model,name:voip_oca.model_voip_call
+msgid "Voip OCA Call"
+msgstr "Виклик VoIP OCA"
