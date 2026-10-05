@@ -1,0 +1,95 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__alias_domain_id
+msgid "Alias Domain"
+msgstr "Домен псевдоніма"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__company_name
+msgid "Company Name"
+msgstr "Назва компанії"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__create_uid
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__create_date
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__display_name
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: base_phone
+#: model:ir.model.fields.selection,name:base_phone.selection__reformat_all_phonenumbers__state__done
+msgid "Done"
+msgstr "Готово"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__fail_counter
+msgid "Fail Mail"
+msgstr "Помилка пошти"
+
+#. module: base_phone
+#: model:ir.model.fields.selection,name:base_phone.selection__number_not_found__number_type__phone
+msgid "Fixed"
+msgstr "Фіксований"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__module_base_geolocalize
+msgid "GeoLocalize"
+msgstr "Геолокалізувати"
+
+#. module: base_phone
+#: model:ir.model.fields.selection,name:base_phone.selection__number_not_found__number_type__mobile
+msgid "Mobile"
+msgstr "Мобільний"
+
+#. module: base_phone
+#: model:ir.actions.act_window,name:base_phone.reformat_all_phonenumbers_action
+#: model:ir.ui.menu,name:base_phone.reformat_all_phonenumbers_menu
+msgid "Reformat Phone Numbers"
+msgstr "Переформатувати телефонні номери"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__show_effect
+msgid "Show Effect"
+msgstr "Показувати ефект"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__state
+msgid "State"
+msgstr "Стан"
+
+#. module: base_phone
+#: model:ir.ui.menu,name:base_phone.menu_config_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:base_phone.view_users_form
+msgid "Telephony"
+msgstr "Телефонія"

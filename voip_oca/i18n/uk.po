@@ -1,0 +1,165 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/call/call.xml:0
+#: code:addons/voip_oca/static/src/components/partner/partner.xml:0
+msgid "Actions"
+msgstr "Дії"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/activity_list/activity_list.esm.js:0
+msgid "Activities"
+msgstr "Дії"
+
+#. module: voip_oca
+#: model:ir.model,name:voip_oca.model_res_partner
+#: model:ir.model.fields,field_description:voip_oca.field_voip_call__partner_id
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_call__create_uid
+#: model:ir.model.fields,field_description:voip_oca.field_voip_pbx__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_call__create_date
+#: model:ir.model.fields,field_description:voip_oca.field_voip_pbx__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/numpad/numpad.xml:0
+msgid "Delete"
+msgstr "Видалити"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_call__display_name
+#: model:ir.model.fields,field_description:voip_oca.field_voip_pbx__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_pbx__domain
+msgid "Domain"
+msgstr "Домен"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_call__end_date
+msgid "End Date"
+msgstr "Дата завершення"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_pbx__mode
+msgid "Environment"
+msgstr "Середовище"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_mail_activity__main_partner_id
+#: model:ir.model.fields,field_description:voip_oca.field_mail_activity_mixin__activity_main_partner_id
+#: model:ir.model.fields,field_description:voip_oca.field_res_partner__activity_main_partner_id
+#: model:ir.model.fields,field_description:voip_oca.field_res_users__activity_main_partner_id
+msgid "Main Contact"
+msgstr "Основний контакт"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_pbx__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: voip_oca
+#: model:ir.actions.act_window,name:voip_oca.voip_pbx_act_window
+#: model:ir.ui.menu,name:voip_oca.voip_pbx_menu
+msgid "PBX Servers"
+msgstr "Сервери PBX"
+
+#. module: voip_oca
+#: model_terms:ir.ui.view,arch_db:voip_oca.view_users_form
+#: model_terms:ir.ui.view,arch_db:voip_oca.view_users_form_simple_modif
+msgid "Password"
+msgstr "Пароль"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_call__phone_number
+msgid "Phone Number"
+msgstr "Номер телефону"
+
+#. module: voip_oca
+#: model:ir.model.fields.selection,name:voip_oca.selection__voip_pbx__mode__prod
+msgid "Production"
+msgstr "Виробництво"
+
+#. module: voip_oca
+#: model:ir.model.fields.selection,name:voip_oca.selection__voip_call__state__rejected
+msgid "Rejected"
+msgstr "Відхилено"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_call__user_id
+msgid "Responsible"
+msgstr "Відповідальний"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_call__start_date
+msgid "Start Date"
+msgstr "Дата початку"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_call__state
+msgid "State"
+msgstr "Стан"
+
+#. module: voip_oca
+#: model:ir.model.fields.selection,name:voip_oca.selection__voip_call__state__terminated
+msgid "Terminated"
+msgstr "Припинено"
+
+#. module: voip_oca
+#: model:ir.model.fields.selection,name:voip_oca.selection__voip_pbx__mode__test
+msgid "Test"
+msgstr "Тест"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/call/call.xml:0
+#: code:addons/voip_oca/static/src/components/transfer/transfer.xml:0
+msgid "Transfer"
+msgstr "Переміщення"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_call__type_call
+msgid "Type Call"
+msgstr "Тип дзвінка"
+
+#. module: voip_oca
+#: model_terms:ir.ui.view,arch_db:voip_oca.view_users_form
+#: model_terms:ir.ui.view,arch_db:voip_oca.view_users_form_simple_modif
+msgid "Username"
+msgstr "Ім’я користувача"
+
+#. module: voip_oca
+#: model:ir.ui.menu,name:voip_oca.voip_call_menu_action
+msgid "Voip/Calls"
+msgstr "VoIP/дзвінки"
+
+#. module: voip_oca
+#: model:ir.model.fields,field_description:voip_oca.field_voip_pbx__ws_server
+msgid "Ws Server"
+msgstr "Сервер WS"
