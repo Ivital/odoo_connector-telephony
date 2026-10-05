@@ -582,3 +582,57 @@ msgid ""
 msgstr ""
 "Користувачі й надалі зможуть відтворювати шаблони.\n"
 "Однак лише редактори поштових шаблонів зможуть створювати нові динамічні шаблони або змінювати наявні."
+
+#. module: base_phone
+#. odoo-javascript
+#: code:addons/base_phone/static/src/components/on_dial_button/on_dial_button.esm.js:0
+msgid "Click2dial successfull"
+msgstr "Click2dial успішно"
+
+#. module: base_phone
+#. odoo-javascript
+#: code:addons/base_phone/static/src/components/on_dial_button/on_dial_button.esm.js:0
+msgid "Click2dial to %s"
+msgstr "Click2dial до %s"
+
+#. module: base_phone
+#. odoo-javascript
+#: code:addons/base_phone/static/src/components/on_dial_button/on_dial_button.xml:0
+msgid "Dial"
+msgstr "Набрати"
+
+#. module: base_phone
+#. odoo-javascript
+#: code:addons/base_phone/static/src/components/on_dial_button/on_dial_button.esm.js:0
+msgid "Dial phone"
+msgstr "Набрати номер"
+
+#. module: base_phone
+#. odoo-python
+#: code:addons/base_phone/wizard/number_not_found.py:0
+msgid "Missing country on company %s"
+msgstr "Відсутня країна компанії %s"
+
+#. module: base_phone
+#. odoo-javascript
+#: code:addons/base_phone/static/src/components/on_dial_button/on_dial_button.esm.js:0
+msgid "Number dialed: %s"
+msgstr "Набраний номер: %s"
+
+#. module: base_phone
+#. odoo-python
+#: code:addons/base_phone/wizard/number_not_found.py:0
+msgid "Partner: %s"
+msgstr "Партнер: %s"
+
+#. module: base_phone
+#. odoo-python
+#: code:addons/base_phone/wizard/number_not_found.py:0
+msgid "Select the Partner to Update."
+msgstr "Виберіть партнера для оновлення."
+
+#. module: base_phone
+#. odoo-javascript
+#: code:addons/base_phone/static/src/components/on_dial_button/on_dial_button.esm.js:0
+msgid "Unhook your ringing phone"
+msgstr "Зніміть слухавку телефона"

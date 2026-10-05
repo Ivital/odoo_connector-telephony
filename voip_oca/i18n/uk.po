@@ -280,3 +280,235 @@ msgstr "Назва активності, пов’язаної з цим тел�
 #: model:ir.model,name:voip_oca.model_voip_call
 msgid "Voip OCA Call"
 msgstr "Виклик VoIP OCA"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/utils/utils.esm.js:0
+msgid "%(minutes)s min %(seconds)s sec"
+msgstr "%(minutes)s хв %(seconds)s с"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/utils/utils.esm.js:0
+msgid "%(minutes)s minutes"
+msgstr "%(minutes)s хвилин"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/utils/utils.esm.js:0
+msgid "%(seconds)s seconds"
+msgstr "%(seconds)s секунд"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/utils/utils.esm.js:0
+msgid "1 minute"
+msgstr "1 хвилина"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/utils/utils.esm.js:0
+msgid "1 second"
+msgstr "1 секунда"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/utils/utils.esm.js:0
+msgid "2 minutes"
+msgstr "2 хвилини"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/services/voip_agent_service.esm.js:0
+msgid ""
+"An error occurred during the connection:\n"
+"\n"
+"%(error)s"
+msgstr ""
+"Під час підключення сталася помилка:\n"
+"\n"
+"%(error)s"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/services/voip_agent_service.esm.js:0
+msgid ""
+"An error occurred during the instantiation of the User Agent:\n"
+"\n"
+"%(error)s"
+msgstr ""
+"Під час створення User Agent сталася помилка:\n"
+"\n"
+"%(error)s"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/services/voip_agent_service.esm.js:0
+msgid ""
+"An error occurred during the registration of the User Agent:\n"
+"\n"
+"%(error)s"
+msgstr ""
+"Під час реєстрації User Agent сталася помилка:\n"
+"\n"
+"%(error)s"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/services/voip_agent_service.esm.js:0
+msgid ""
+"Call rejected. Reason:\n"
+"\n"
+"%(reason)s"
+msgstr ""
+"Виклик відхилено. Причина:\n"
+"\n"
+"%(reason)s"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/partner/partner.xml:0
+msgid "Cancel activity"
+msgstr "Скасувати активність"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/partner_list/partner_list.esm.js:0
+msgid "Contacts"
+msgstr "Контакти"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/partner/partner.xml:0
+msgid "Edit activity"
+msgstr "Редагувати активність"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/transfer/transfer.xml:0
+msgid "Enter number"
+msgstr "Введіть номер"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/numpad/numpad.xml:0
+msgid "Enter number..."
+msgstr "Введіть номер..."
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/services/voip_agent_service.esm.js:0
+msgid ""
+"Failed to establish the call:\n"
+"\n"
+"%(error)s"
+msgstr ""
+"Не вдалося встановити виклик:\n"
+"\n"
+"%(error)s"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/services/voip_agent_service.esm.js:0
+msgid ""
+"Failed to load the SIP.js library:\n"
+"\n"
+"%(error)s"
+msgstr ""
+"Не вдалося завантажити бібліотеку SIP.js:\n"
+"\n"
+"%(error)s"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/services/voip_agent_service.esm.js:0
+msgid ""
+"Failed to put the call on hold/unhold:\n"
+"\n"
+"%(error)s"
+msgstr ""
+"Не вдалося поставити виклик на утримання/зняти з утримання:\n"
+"\n"
+"%(error)s"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/services/voip_agent_service.esm.js:0
+msgid "Failed to reconnect the User Agent. Please reload the page."
+msgstr "Не вдалося повторно підключити User Agent. Перезавантажте сторінку."
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/call/call.xml:0
+msgid "In call for:"
+msgstr "У виклику для:"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/call/call.xml:0
+#: code:addons/voip_oca/static/src/components/partner/partner.xml:0
+msgid "Info contact"
+msgstr "Контактна інформація"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/call/call.xml:0
+msgid "Mute"
+msgstr "Вимкнути звук"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/partner/partner.xml:0
+msgid "New contact"
+msgstr "Новий контакт"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/call/call.xml:0
+#: code:addons/voip_oca/static/src/components/partner/partner.xml:0
+msgid "No contact info"
+msgstr "Немає контактної інформації"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/call/call.xml:0
+#: code:addons/voip_oca/static/src/components/softphone/softphone.xml:0
+msgid "Open Numpad"
+msgstr "Відкрити цифрову клавіатуру"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/partner/partner.xml:0
+msgid "Related activity"
+msgstr "Пов’язана активність"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/partner/partner.xml:0
+msgid "Related document"
+msgstr "Пов’язаний документ"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/call/call.xml:0
+#: code:addons/voip_oca/static/src/components/partner/partner.xml:0
+msgid "Schedule activity"
+msgstr "Запланувати дію"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/voip_oca_systray/voip_oca_systray.xml:0
+msgid "Softphone"
+msgstr "Софтфон"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/components/transfer/transfer.xml:0
+msgid "Transfer to"
+msgstr "Перевести до"
+
+#. module: voip_oca
+#. odoo-javascript
+#: code:addons/voip_oca/static/src/utils/utils.esm.js:0
+msgid "less than a second"
+msgstr "менше секунди"
