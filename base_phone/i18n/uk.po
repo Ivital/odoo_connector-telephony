@@ -93,3 +93,140 @@ msgstr "Стан"
 #: model_terms:ir.ui.view,arch_db:base_phone.view_users_form
 msgid "Telephony"
 msgstr "Телефонія"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__snailmail_cover
+msgid "Add a Cover Page"
+msgstr "Додати титульну сторінку"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__calling_number
+msgid "Calling Number"
+msgstr "Номер виклику"
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.reformat_all_phonenumbers_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.number_not_found_form
+#: model_terms:ir.ui.view,arch_db:base_phone.reformat_all_phonenumbers_form
+msgid "Close"
+msgstr "Закрити"
+
+#. module: base_phone
+#. odoo-python
+#: code:addons/base_phone/wizard/number_not_found.py:0
+#: model_terms:ir.ui.view,arch_db:base_phone.number_not_found_form
+msgid "Create New Partner"
+msgstr "Створити нового контрагента"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__current_partner_mobile
+msgid "Current Mobile"
+msgstr "Поточний мобільний номер"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__current_partner_phone
+msgid "Current Phone"
+msgstr "Поточний телефон"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__auth_signup_uninvited
+msgid "Customer Account"
+msgstr "Обліковий запис клієнта"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__external_report_layout_id
+msgid "Document Template"
+msgstr "Шаблон документа"
+
+#. module: base_phone
+#: model:ir.model.fields.selection,name:base_phone.selection__reformat_all_phonenumbers__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__e164_number
+msgid "E.164 Number"
+msgstr "Номер E.164"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__number_type
+msgid "Fixed/Mobile"
+msgstr "Стаціонарний/мобільний"
+
+#. module: base_phone
+#: model_terms:ir.ui.view,arch_db:base_phone.res_config_settings_view_form
+msgid "Incoming calls"
+msgstr "Вхідні дзвінки"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__is_root_company
+msgid "Is Root Company"
+msgstr "Є кореневою компанією"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__tenor_api_key
+msgid "Klipy API key"
+msgstr "API-ключ Klipy"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__tenor_gif_limit
+msgid "Klipy GIF limits"
+msgstr "Ліміти GIF Klipy"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__write_uid
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__write_date
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__group_multi_currency
+msgid "Multi-Currencies"
+msgstr "Кілька валют"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__number_of_digits_to_match_from_end
+#: model:ir.model.fields,field_description:base_phone.field_res_config_settings__number_of_digits_to_match_from_end
+msgid "Number of Digits"
+msgstr "Кількість цифр"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_number_not_found__to_update_partner_id
+msgid "Partner to Update"
+msgstr "Контрагент для оновлення"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__snailmail_color
+msgid "Print In Color"
+msgstr "Друкувати кольоровим"
+
+#. module: base_phone
+#: model:ir.model,name:base_phone.model_reformat_all_phonenumbers
+#: model_terms:ir.ui.view,arch_db:base_phone.reformat_all_phonenumbers_form
+msgid "Reformat all phone numbers"
+msgstr "Переформатувати всі телефонні номери"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__sfu_server_url
+msgid "SFU Server URL"
+msgstr "URL сервера SFU"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__sfu_server_key
+msgid "SFU Server key"
+msgstr "Ключ сервера SFU"
+
+#. module: base_phone
+#: model:ir.model.fields,field_description:base_phone.field_reformat_all_phonenumbers__web_app_name
+msgid "Web App Name"
+msgstr "Назва вебзастосунку"
